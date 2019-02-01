@@ -1,0 +1,99 @@
+body {
+background-image: url("Recursos-web/img/158435.jpg");
+}
+
+.tituloprincipal {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+h1 {
+
+    color: whitesmoke;
+    font-family: Georgia;
+    font-size: 75px;
+    text-align: center;
+    
+    
+}
+
+h3 {
+
+    color: whitesmoke;
+    font-family: Georgia;
+    font-size: 55px;
+    text-align: center;
+    
+}
+
+.historia {
+
+    color: antiquewhite;
+    font-family: Franklin Gothic Medium;
+    font-size: 20px;
+}
+
+
+
+.divhistoria {
+
+ border-radius: 23px 23px 23px 0px;
+ border: 2px solid black;
+ background-color: grey;
+}
+
+.Textocarousel {
+
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+
+.bordecarousel {
+
+    border: 3px dashed black;
+}
+
+.zeuscolor:hover {
+   font-size:20px;
+    color:blue;
+}
+
+.artecolor:hover {
+    color:blue;
+    font-size:20px;
+}
+
+.arescolor:hover {
+    color:blue;
+    font-size:20px;
+}
+
+/* @include media-breakpoint-up(sm) {
+  .Textocarousel {
+    font-size: 0.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .Textocarousel {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .Textocarousel {
+    font-size: 1.6rem;
+  }
+}
+*/
+
+@media (max-width: 1280px) {
+ .Textocarousel { font-size: 14px; }
+}
+
+@media (max-width: 800px) {
+  .Textocarousel { font-size: 12px; }
+}
